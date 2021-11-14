@@ -20,6 +20,7 @@ strMenu = ""   # A menu of user options
 strChoice = "" # A Capture the user option selection
 Task = "" #
 Priority = ""
+
 # -- Processing -- #
 # Step 1 - When the program starts, load the any data you have
 # in a text file called ToDoList.txt into a python list of dictionaries rows (like Lab 5-2)
