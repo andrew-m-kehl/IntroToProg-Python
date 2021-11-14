@@ -1,0 +1,8 @@
+Buy E-Bikes,8
+Water Plants,2
+Play Guitar,7
+Buy Beans,9
+Clean House,3
+Call Mom,1
+Fix Lights,6
+Peel Potatoes,12
