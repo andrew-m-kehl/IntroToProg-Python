@@ -29,7 +29,6 @@ for row in objFile:
     strTask, strPriority = row.split(',')
     dicRow = {'Task':strTask, 'Priority':strPriority.strip()}
     lstTable.append(dicRow)
-# TODONE: Add Code Here
 
 # -- Input/Output -- #
 # Step 2 - Display a menu of choices to the user
@@ -60,7 +59,6 @@ while (True):
         lstTable.append(dicRow)
         for row in lstTable:
             print(row['Task'] + ' | ' + row['Priority'])
-        # TODONE: Add Code Here
         continue
     # Step 5 - Remove a new item from the list/Table
     elif (strChoice.strip() == '3'):
@@ -71,10 +69,6 @@ while (True):
             if row["Task"].lower() == strItem.lower():
                 lstTable.remove(row)
                 print("Task Removed")
-            #else:
-               # print('ToDo not found.')
-
-        # TODO: Add Code Here
         continue
     # Step 6 - Save tasks to the ToDoToDoList.txt file
     elif (strChoice.strip() == '4'):
@@ -83,7 +77,6 @@ while (True):
             objFile.write(str(row["Task"]) + ',' + str(row["Priority"] + '\n'))
         print(" Data was saved to file: ToDoList.txt. ")
         objFile.close()
-        # TODONE: Add Code Here
         continue
     # Step 7 - Exit program
     elif (strChoice.strip() == '5'):
