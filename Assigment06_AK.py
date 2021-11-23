@@ -7,7 +7,7 @@
 # ChangeLog (Who,When,What):
 # RRoot,1.1.2030,Created started script
 # RRoot,1.1.2030,Added code to complete assignment 5
-# <Your Name>,<Date>,Modified code to complete assignment 6
+# <Andrew Kehl>,<11/22/2021>,Modified code to complete assignment 6
 # ---------------------------------------------------------------------------- #
 
 # Data ---------------------------------------------------------------------- #
